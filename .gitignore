@@ -1,0 +1,41 @@
+# Node / NPM / React Native / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.metro-health-check*
+
+# Java / Maven / Backend
+backend/target/
+backend/apache-maven-*/
+backend/maven.zip
+backend/mvn2.zip
+*.class
+*.jar
+*.war
+
+# Environment / Secrets
+.env
+.env*.local
+*.pem
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+.project
+.classpath
+.settings/
